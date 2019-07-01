@@ -6,4 +6,6 @@
     <string name="edt_mat_khau">Mat khau</string>
     <string name="btn_dang_nhap">Dang nhap</string>
     <string name="btn_dang_ky">Dang ky</string>
+    <string name="text_taikhoan">Nguoi dung</string>
+    <string name="text_matkhau">Mat khau</string>
 </resources>
