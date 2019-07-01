@@ -13,12 +13,12 @@
         android:layout_centerHorizontal="true"
         android:textColor="#f20"
         android:textSize="45sp"
-        android:text="Dang nhap"
+        android:text="@string/title_dang_nhap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <EditText
         android:inputType="text"
-        android:hint="Tai khoan"
+        android:hint="@string/edt_tai_khoan"
         android:layout_marginTop="30dp"
         android:layout_below="@id/textviewTieude"
         android:id="@+id/edittextTaikhoan"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content" />
     <EditText
         android:inputType="numberPassword"
-        android:hint="Mat khau"
+        android:hint="@string/edt_mat_khau"
         android:layout_marginTop="30dp"
         android:layout_below="@id/edittextTaikhoan"
         android:id="@+id/edittextPassword"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content" />
     <Button
         android:layout_marginLeft="30dp"
-        android:text="Dang nhap"
+        android:text="@string/btn_dang_nhap"
         android:layout_marginTop="50dp"
         android:layout_below="@id/edittextPassword"
         android:id="@+id/buttonDangnhap"
@@ -43,7 +43,7 @@
     <Button
         android:layout_alignParentRight="true"
         android:layout_marginRight="30dp"
-        android:text="Dang ky"
+        android:text="@string/btn_dang_ky"
         android:layout_marginTop="50dp"
         android:layout_below="@id/edittextPassword"
         android:id="@+id/buttonDangky"
